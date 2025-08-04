@@ -1,11 +1,12 @@
 body {
-    font-family: Arial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
     margin: 0;
     padding: 0;
     background: #f4f4f4;
     color: #333;
     width:100%;
+
 }
 
 header {
@@ -13,13 +14,28 @@ header {
     color: #fff;
     padding: 40px;  
     text-align: center;
+    font-family: cursive;
 }
+
+
 
 nav a {
     color: #fff;
     margin: 0 1rem;
     text-decoration: none;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bolder;
+    transition: transform 0.3s ease; /* Smooth scaling */
 }
+
+
+nav a:hover {
+    transform: scale(1.1);
+    color:#007BFF; /* Gold */
+    text-shadow: 1px 1px 5px #fff;
+}
+
 
 section {
     margin: 2rem;
